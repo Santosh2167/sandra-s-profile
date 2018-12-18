@@ -4,34 +4,12 @@ import AboutMe from "./aboutMe";
 import Welcome from "./welcome";
 import BioMenus from "./bioMenus";
 import FavouriteFood from "./favouriteFood";
-
-
-// const Welcome = () =>{
-//     return <h1>Welcome To Sandras Profile Page</h1>;
-// };
-
-// const BioMenus = () => {
-//     return(
-//         <ul>
-//             <li><a href="#AboutMe">About Me</a></li>
-//             <li><a href="#">Favourite Foods</a></li>
-//             <li><a href="#">Contact Details</a></li>
-//         </ul>
-
-//     );
-
-
-// };
-
-// const AboutMe = () => {
-//    return(
-//         <h1 id="AboutMe">About Me</h1>
-//         <ol>
-//             <li><string>Pop</string> culture maven. Beer fan. Award-winning Junkie. Extreme coffee enthusiast. Thinker, Tv Specialist    </li>
-//         </ol>
-//    ) 
-// };
-
+import Ques from "./ques";
+import IceCream from "./iceCream";
+import LoadedFried from "./loadedFried";
+import Contact from "./contact";
+import Food from "./food";
+import Pizza from "./pizza";
 
 const App = ()=> {
     return(
@@ -40,6 +18,32 @@ const App = ()=> {
             <BioMenus/>
             <AboutMe/>
             <FavouriteFood/>
+            <LoadedFried/>
+            <Contact/>
+            <Food
+                title="Pizza"
+                path="/pizza.jpeg"
+                alternative="ask shakti"
+                bestTime ="Breaky"
+                bestPlace="Pancakes on the Rocks"
+
+
+            />
+            <Food
+                title="Quesadillas"
+                path="/ques.jpeg"
+                alternative="i ate quas so it is nothere"
+                bestTime ="Afternoon Siesta"
+                bestPlace="Mejico"
+            />
+            <Food
+                title="IceCream Pan Cake"
+                path="/pancake.jpg"
+                alternative="i dont like pan cake so ask shakti"
+                bestTime ="Breaky"
+                bestPlace="Pancakes on the Rocks"
+            />
+
         </div>
     ); 
 };

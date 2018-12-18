@@ -1,6 +1,6 @@
  import React from "react";
 
-    const AboutMe = () => {
+    const AboutMe = (props) => {
         return(
             <div>
             <section id="#AboutMe">
